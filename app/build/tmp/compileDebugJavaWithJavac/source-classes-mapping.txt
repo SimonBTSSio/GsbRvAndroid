@@ -1,0 +1,10 @@
+fr/gsb/rv/modeles/ModeleGsb.java
+ fr.gsb.rv.modeles.ModeleGsb
+fr/gsb/rv/entites/Visiteur.java
+ fr.gsb.rv.entites.Visiteur
+fr/gsb/BuildConfig.java
+ fr.gsb.BuildConfig
+fr/gsb/MainActivity.java
+ fr.gsb.MainActivity
+fr/gsb/rv/technique/Session.java
+ fr.gsb.rv.technique.Session

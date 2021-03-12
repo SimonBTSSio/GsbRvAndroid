@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GsbRvAndroid</string>
+    <string name="mat">Matricule : </string>
+    <string name="mdp">Mot de passe : </string>
+    <string name="btn_val">VALIDER</string>
+    <string name="btn_ann">ANNULER</string>
+</resources>
