@@ -15,6 +15,11 @@ public class Session {
             session = new Session(visiteur);
         }
     }
+
+    public static Session getSession() {
+        return session;
+    }
+
     public static void fermer(){
         session = null;
     }

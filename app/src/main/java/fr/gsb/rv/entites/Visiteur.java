@@ -28,4 +28,14 @@ public class Visiteur {
     public String getPrenom() {
         return prenom;
     }
+
+    @Override
+    public String toString() {
+        return "Visiteur{" +
+                "matricule='" + matricule + '\'' +
+                ", mdp='" + mdp + '\'' +
+                ", nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                '}';
+    }
 }
