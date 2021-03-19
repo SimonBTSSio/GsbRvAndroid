@@ -16,6 +16,14 @@
         "source": "/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/build/intermediates/res/merged/debug/layout_activity_menu_rv.xml.flat",
+        "source": "/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/res/layout/activity_menu_rv.xml"
+    },
+    {
+        "merged": "/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/build/intermediates/res/merged/debug/layout_activity_recherche_rv.xml.flat",
+        "source": "/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/res/layout/activity_recherche_rv.xml"
+    },
+    {
         "merged": "/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },

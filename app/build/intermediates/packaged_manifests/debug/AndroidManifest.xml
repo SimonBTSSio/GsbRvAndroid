@@ -22,6 +22,8 @@
         android:testOnly="true"
         android:theme="@style/Theme.GsbRvAndroid"
         android:usesCleartextTraffic="true" >
+        <activity android:name="fr.gsb.RechercheRvActivity" />
+        <activity android:name="fr.gsb.MenuRvActivity" />
         <activity android:name="fr.gsb.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

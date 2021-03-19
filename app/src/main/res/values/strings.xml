@@ -4,4 +4,6 @@
     <string name="mdp">Mot de passe : </string>
     <string name="btn_val">VALIDER</string>
     <string name="btn_ann">ANNULER</string>
+    <string name="btn_consulte_rapport">CONSULTER UN RAPPORT DE VISITE</string>
+    <string name="btn_saisie_rapport">SAISIR UN RAPPORT DE VISITE</string>
 </resources>

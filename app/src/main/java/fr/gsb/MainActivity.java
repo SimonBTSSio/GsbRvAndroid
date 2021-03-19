@@ -2,6 +2,7 @@ package fr.gsb;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -36,14 +37,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void seConnecter(View v){
-        if(etMatricule.getText().toString() == "a131" && etMdp.getText().toString() == "azerty"){
+        /*if(etMatricule.getText().toString() == "a131" && etMdp.getText().toString() == "azerty"){
             Log.i("seConnecter", "Connexion ok (" + etMatricule.getText() + " " + etMdp.getText());
         }else{
             Log.i("seConnecter", "Connexion Nok");
             Toast.makeText(getApplicationContext(),"Echec à la connexion. Recommencez...", Toast.LENGTH_SHORT).show();
-            /*Toast toast = Toast.makeText(getApplicationContext(),"Echec à la connexion. Recommencez...",Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(),"Echec à la connexion. Recommencez...",Toast.LENGTH_SHORT);
             toast.setMargin(0,0);
-            toast.show();*/
+            toast.show();
+        }*/
+        if(Session.getSession() != null){
+            Session.fermer();
+            Log.i("Fermeture" , "Session fermer");
         }
         String matHttp = null;
         String mdpHttp = null;
@@ -68,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
                         finalData[i] = tbl[1].substring(1, tbl[1].length()-1);
                     }
                     Session.ouvrir(new Visiteur(finalData[0],etMdp.getText().toString(),finalData[2],finalData[1]));
+                    Intent intentionEnvoyer = new Intent(MainActivity.this, MenuRvActivity.class);
+                    startActivity(intentionEnvoyer);
+
                     Log.i("test", Session.getSession().toString());
                 }
 
@@ -77,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Log.e("erreur connexion", "Erreur HTTP : " + error.getMessage());
+                Toast.makeText(getApplicationContext(),"Echec à la connexion. Recommencez...", Toast.LENGTH_SHORT).show();
             }
         };
         StringRequest requete = new StringRequest(

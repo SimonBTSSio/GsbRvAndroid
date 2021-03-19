@@ -16,6 +16,10 @@ public class Session {
         }
     }
 
+    public Visiteur getVisiteur() {
+        return visiteur;
+    }
+
     public static Session getSession() {
         return session;
     }
