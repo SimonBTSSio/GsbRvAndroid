@@ -1,7 +1,7 @@
 fr/gsb/rv/modeles/ModeleGsb.java
  fr.gsb.rv.modeles.ModeleGsb
-fr/gsb/RechercheRvActivity.java
- fr.gsb.RechercheRvActivity
+fr/gsb/rv/technique/Session.java
+ fr.gsb.rv.technique.Session
 fr/gsb/rv/entites/Visiteur.java
  fr.gsb.rv.entites.Visiteur
 fr/gsb/BuildConfig.java
@@ -10,7 +10,8 @@ fr/gsb/MainActivity.java
  fr.gsb.MainActivity
  fr.gsb.MainActivity$1
  fr.gsb.MainActivity$2
-fr/gsb/rv/technique/Session.java
- fr.gsb.rv.technique.Session
+fr/gsb/RechercheRvActivity.java
+ fr.gsb.RechercheRvActivity
+ fr.gsb.RechercheRvActivity$1
 fr/gsb/MenuRvActivity.java
  fr.gsb.MenuRvActivity

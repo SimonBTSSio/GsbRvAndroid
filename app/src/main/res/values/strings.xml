@@ -6,4 +6,8 @@
     <string name="btn_ann">ANNULER</string>
     <string name="btn_consulte_rapport">CONSULTER UN RAPPORT DE VISITE</string>
     <string name="btn_saisie_rapport">SAISIR UN RAPPORT DE VISITE</string>
+    <string name="mois">Mois : </string>
+    <string name="annee">Année : </string>
+    <string name="btn_afficher_rapport">AFFICHER LA LISTE DES RAPPORTS</string>
+    <string name="deconnexion">Déconnexion</string>
 </resources>

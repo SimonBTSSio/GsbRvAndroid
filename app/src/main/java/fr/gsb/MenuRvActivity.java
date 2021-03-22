@@ -18,9 +18,16 @@ public class MenuRvActivity extends AppCompatActivity {
         String nomPrenom = Session.getSession().getVisiteur().getPrenom() + " " + Session.getSession().getVisiteur().getNom();
         TextView nomPrenomUti = (TextView)findViewById(R.id.textView3);
         nomPrenomUti.setText(nomPrenom);
+
     }
     public void consulterRapport(View v){
         Intent intentionEnvoyer = new Intent(MenuRvActivity.this, RechercheRvActivity.class);
         startActivity(intentionEnvoyer);
+    }
+    public void deconnexion(View v){
+        Session.fermer();
+        Intent intentionEnvoyer = new Intent(MenuRvActivity.this, MainActivity.class);
+        startActivity(intentionEnvoyer);
+
     }
 }

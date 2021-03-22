@@ -1458,6 +1458,7 @@ id bottom
 id button
 id button2
 id button3
+id button4
 id buttonPanel
 id button_consulte_rapport
 id button_saisie_rapport
@@ -1568,6 +1569,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id myImageView
 id navigation_header_container
 id never
 id noScroll
@@ -1849,9 +1851,11 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string annee
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string btn_afficher_rapport
 string btn_ann
 string btn_consulte_rapport
 string btn_saisie_rapport
@@ -1861,6 +1865,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string deconnexion
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -1869,6 +1874,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string mat
 string mdp
+string mois
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
