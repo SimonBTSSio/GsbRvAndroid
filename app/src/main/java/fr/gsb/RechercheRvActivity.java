@@ -46,4 +46,17 @@ public class RechercheRvActivity extends AppCompatActivity {
             }
         });
     }
+    public void listeRapports(View v){
+        Spinner spinnerMois = (Spinner) findViewById(R.id.spinner);
+        String donneeSpinnerMois = spinnerMois.getSelectedItem().toString();
+        Spinner spinnerAns = (Spinner) findViewById(R.id.spinner2);
+        String donneeSpinnerAns = spinnerAns.getSelectedItem().toString();
+
+        Bundle paquet = new Bundle();
+        paquet.putString("mois", donneeSpinnerMois);
+        paquet.putString("ans", donneeSpinnerAns);
+        Intent intent = new Intent(RechercheRvActivity.this, ListeRvActivity.class);
+        intent.putExtras(paquet);
+        startActivity(intent);
+    }
 }

@@ -16,7 +16,7 @@
         android:layout_marginRight="185dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text=""
+        android:text="a131"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -28,6 +28,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:ems="10"
+        android:text="azerty"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />

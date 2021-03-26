@@ -10,4 +10,5 @@
     <string name="annee">Année : </string>
     <string name="btn_afficher_rapport">AFFICHER LA LISTE DES RAPPORTS</string>
     <string name="deconnexion">Déconnexion</string>
+    <string name="list_rapport">Liste des rapports pour xxxxxxxx xxxx</string>
 </resources>
