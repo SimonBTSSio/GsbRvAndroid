@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.i("creation", "Creation de l'activite principale.");
+        //Log.i("creation", "Creation de l'activite principale.");
         etMatricule = (EditText) findViewById(R.id.matricule);
         etMdp = (EditText) findViewById(R.id.mdp);
 
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }*/
         if(Session.getSession() != null){
             Session.fermer();
-            Log.i("Fermeture" , "Session fermer");
+            //Log.i("Fermeture" , "Session fermer");
         }
         String matHttp = null;
         String mdpHttp = null;
@@ -62,14 +62,14 @@ public class MainActivity extends AppCompatActivity {
         Response.Listener<String> ecouteurReponse = new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
-                Log.i("reponse" , response);
+                //Log.i("reponse" , response);
                 if(response != null){
                     String data = response.substring(1, response.length()-1);
                     String tblData[] = data.split(", ");
                     String finalData[] = new String[3];
                     for (int i = 0; i < tblData.length; i++) {
                         String tbl[] = tblData[i].split(": ");
-                        Log.i("test",tbl[1].substring(1, tbl[1].length()-1));
+                        //Log.i("test",tbl[1].substring(1, tbl[1].length()-1));
                         finalData[i] = tbl[1].substring(1, tbl[1].length()-1);
                     }
                     Session.ouvrir(new Visiteur(finalData[0],etMdp.getText().toString(),finalData[2],finalData[1]));
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         Response.ErrorListener ecouteurErreur = new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.e("erreur connexion", "Erreur HTTP : " + error.getMessage());
+                //Log.e("erreur connexion", "Erreur HTTP : " + error.getMessage());
                 Toast.makeText(getApplicationContext(),"Echec à la connexion. Recommencez...", Toast.LENGTH_SHORT).show();
             }
         };
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void annuler(View v){
-        Log.i("annuler", "Initialisation des champs");
+        //Log.i("annuler", "Initialisation des champs");
         etMatricule.setText("");
         etMdp.setText("");
     }

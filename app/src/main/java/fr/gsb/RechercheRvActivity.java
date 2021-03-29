@@ -12,9 +12,11 @@ import android.widget.Spinner;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class RechercheRvActivity extends AppCompatActivity {
-
+    private String[] moisTbl = new String[]{"Janvier","Février","Mars","Avril","Mais","Juin","Juillet","Aout","Septembre","Octobre","Nomvembre","Décembre"};
+    private List<String> listMois = new ArrayList<String>(){{add("Janvier");add("Février");add("Mars");add("Avril");add("Mais");add("Juin");add("Juillet");add("Aout");add("Septembre");add("Octobre");add("Nomvembre");add("Décembre");}};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +24,7 @@ public class RechercheRvActivity extends AppCompatActivity {
         ImageView imageView = (ImageView) findViewById(R.id.myImageView);
         Spinner spinnerMois = (Spinner) findViewById(R.id.spinner);
         ArrayList<String> mois = new ArrayList<String>();
-        String[] moisTbl = new String[]{"Janvier","Février","Mars","Avril","Mais","Juin","Juillet","Aout","Septembre","Octobre","Nomvembre","Décembre"};
+
         for(String unMois : moisTbl){
             mois.add(unMois);
         }
@@ -52,9 +54,12 @@ public class RechercheRvActivity extends AppCompatActivity {
         Spinner spinnerAns = (Spinner) findViewById(R.id.spinner2);
         String donneeSpinnerAns = spinnerAns.getSelectedItem().toString();
 
+
         Bundle paquet = new Bundle();
         paquet.putString("mois", donneeSpinnerMois);
         paquet.putString("ans", donneeSpinnerAns);
+        int moisEntier = listMois.indexOf(donneeSpinnerMois);
+        paquet.putInt("moisEntier",moisEntier);
         Intent intent = new Intent(RechercheRvActivity.this, ListeRvActivity.class);
         intent.putExtras(paquet);
         startActivity(intent);
