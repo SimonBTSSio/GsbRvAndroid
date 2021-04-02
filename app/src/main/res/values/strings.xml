@@ -11,4 +11,14 @@
     <string name="btn_afficher_rapport">AFFICHER LA LISTE DES RAPPORTS</string>
     <string name="deconnexion">Déconnexion</string>
     <string name="list_rapport">Liste des rapports pour xxxxxxxx xxxx</string>
+    <string name="titre_rapport">Rapport du xxxx-xx-xx</string>
+    <string name="rapport">Rapport</string>
+    <string name="rapportNum">Numero : x</string>
+    <string name="rapportBilan">Bilan : xxxxxx</string>
+    <string name="praticien">Praticien</string>
+
+    <string name="praticienNom">Nom : xxxxx</string>
+    <string name="praticienPrenom">Prenom : xxxxxxx</string>
+    <string name="praticienVille">Ville : xxxxxxx</string>
+    <string name="praticienCP">Code postal : xxxxxxx</string>
 </resources>

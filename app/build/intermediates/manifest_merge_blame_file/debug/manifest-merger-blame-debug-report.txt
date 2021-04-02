@@ -18,7 +18,7 @@
 12-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:6:22-64
 13
 14    <application
-14-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:8:5-26:19
+14-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:8:5-27:19
 15        android:allowBackup="true"
 15-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -37,29 +37,32 @@
 23-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:14:9-50
 24        android:usesCleartextTraffic="true" >
 24-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:15:9-44
-25        <activity android:name="fr.gsb.ListeRvActivity" />
-25-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:16:9-62
-25-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:16:19-50
-26        <activity android:name="fr.gsb.RechercheRvActivity" />
-26-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:17:9-57
-26-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:17:19-54
-27        <activity android:name="fr.gsb.MenuRvActivity" />
-27-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:18:9-52
-27-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:18:19-49
-28        <activity android:name="fr.gsb.MainActivity" >
-28-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:19:9-25:20
-28-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:19:19-47
-29            <intent-filter>
-29-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:20:13-24:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:21:17-69
-30-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:21:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:23:17-77
-32-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:23:27-74
-33            </intent-filter>
-34        </activity>
-35    </application>
-36
-37</manifest>
+25        <activity android:name="fr.gsb.VisuRvActivity" />
+25-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:16:9-61
+25-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:16:19-49
+26        <activity android:name="fr.gsb.ListeRvActivity" />
+26-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:17:9-53
+26-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:17:19-50
+27        <activity android:name="fr.gsb.RechercheRvActivity" />
+27-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:18:9-57
+27-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:18:19-54
+28        <activity android:name="fr.gsb.MenuRvActivity" />
+28-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:19:9-52
+28-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:19:19-49
+29        <activity android:name="fr.gsb.MainActivity" >
+29-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:20:9-26:20
+29-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:20:19-47
+30            <intent-filter>
+30-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:22:17-69
+31-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:24:17-77
+33-->/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/src/main/AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

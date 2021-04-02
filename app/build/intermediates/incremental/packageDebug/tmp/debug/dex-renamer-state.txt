@@ -1,4 +1,4 @@
-#Mon Mar 29 11:39:30 CEST 2021
+#Fri Apr 02 15:04:57 CEST 2021
 base.0=/home/etudiant/AndroidStudioProjects/GsbRvAndroid/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -73,9 +73,7 @@ public class ListeRvActivity extends AppCompatActivity {
             @Override
             public void onResponse(String response) {
                 if(response != null){
-
                     try {
-
                         JSONArray tblJson = new JSONArray(response);
                         for(int i = 0; i < tblJson.length(); i++){
                             JSONObject unObject = tblJson.getJSONObject(i);

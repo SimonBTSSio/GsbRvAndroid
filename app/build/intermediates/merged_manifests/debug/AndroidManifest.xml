@@ -22,6 +22,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.GsbRvAndroid"
         android:usesCleartextTraffic="true" >
+        <activity android:name="fr.gsb.VisuRvActivity" />
         <activity android:name="fr.gsb.ListeRvActivity" />
         <activity android:name="fr.gsb.RechercheRvActivity" />
         <activity android:name="fr.gsb.MenuRvActivity" />
